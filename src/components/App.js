@@ -12,8 +12,8 @@ function App() {
       <div className="container">
         <Header />
         <Profile />
-        <NewsFeed />
         <SuggestedFollows />
+        <NewsFeed />
       </div>
     </React.Fragment>
   );

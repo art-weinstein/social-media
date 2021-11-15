@@ -13,18 +13,13 @@ code {
     monospace;
 }
 
-img {
-  width: 100px;
-  height: 100px;
-}
-
 .text-input {
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .blue {
-  background-color: deepskyblue;
+  background-color: #0d6efd;
   height: 110px;
   width: 100%;
 }
@@ -46,6 +41,8 @@ img {
 }
 
 .left-profile-img {
+  width: 100px;
+  height: 100px;
   float: left;
   margin: 17% 5px 0 20px;
   border-radius: 25px;
@@ -53,4 +50,77 @@ img {
   /* display: inline-block;
   height: 100%;
   vertical-align: middle; */
+}
+
+.suggested-follows {
+  float: right;
+  border: 2px solid lightgray;
+  margin-left: 10px;
+  padding: 20px;
+  width: 20%;
+}
+
+.suggested-user {
+  margin-bottom: 10px;
+}
+
+.user-image {
+  width: 60px;
+  height: 60px;
+  float: left;
+  bottom: 0;
+  margin: 3% 10px 0 0;
+}
+
+.follow-btn {
+  border-radius: .25rem;
+  width: 50%
+}
+
+.suggested-user p {
+  margin-bottom: 5px;
+}
+
+.new-post {
+  background-color: deepskyblue;
+  height: 100px;
+}
+
+.post-text {
+  width: 85%;
+  height: 50%;
+}
+.news-feed {
+  width:49%;
+  float: left;
+}
+
+.post img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 10px;
+}
+
+.new-post img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 10px 0 10px;
+}
+
+.new-post-img {
+  padding: 5% 5% 5% 5%;
+}
+
+.post{
+  border-left: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.post-body {
+  display: inline-block
 }

@@ -4,28 +4,28 @@ import profileImage from "./../img/profileImage.jpg";
 
 const mainSuggestedFollows = [
   {
-  userImage: profileImage,
-  userName: 'The Dude'
-  },
-  {
-  userImage: profileImage,
-  userName: 'John Cena'
+    userImage: profileImage,
+    userName: "The Dude",
   },
   {
     userImage: profileImage,
-    userName: 'Scooby Doo'
+    userName: "John Cena",
   },
-]
+  {
+    userImage: profileImage,
+    userName: "Scooby Doo",
+  },
+];
 
-function SuggestedFollows(){
-  return(
+function SuggestedFollows() {
+  return (
     <React.Fragment>
-      <h3>Suggested Follows</h3>
-      {mainSuggestedFollows.map((user, index)=>
-      <User image = {user.userImage}
-        name = {user.userName}
-        key={index}/>
-      )}
+      <div className="suggested-follows">
+        <h5>Suggested Follows</h5>
+        {mainSuggestedFollows.map((user, index) => (
+          <User image={user.userImage} name={user.userName} key={index} />
+        ))}
+      </div>
     </React.Fragment>
   );
 }

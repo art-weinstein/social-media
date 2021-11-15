@@ -4,11 +4,15 @@ import PropTypes from "prop-types";
 function Post(props){
   return(
     <React.Fragment>
-      <img src={props.image} alt="profile"/>
-      <p><strong>{props.name}</strong></p>
-      <p>{props.body}</p>
-      <hr/>
-      <a href={props.link}>{props.link}</a>
+      <div className="post">
+        <img src={props.image} alt="profile"/>
+        <div className="post-body">
+          <p><strong>{props.name}</strong></p>
+          <p>{props.body}</p>
+          <hr/>
+          <a href={props.link}>{props.linkName}</a>
+        </div>
+      </div>
     </React.Fragment>
   );
 }
